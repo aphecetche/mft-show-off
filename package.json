@@ -1,0 +1,33 @@
+{
+  "name": "mft-show-off",
+  "version": "0.1.0",
+  "description": "Le MFT : un détecteur de précision pour la physique du plasma de quarks et de gluons",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -f css/*.min.css",
+    "css:watch": "postcss css/main.css --config postcss.config.js --output css/main.min.css --watch",
+    "css:build": "postcss css/main.css --config postcss.config.js --output css/main.min.css",
+    "start": "npm run clean && parallelshell 'npm run css:watch'",
+    "build": "npm run css:build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aphecetche/mft-show-off.git"
+  },
+  "author": "Laurent Aphecetche",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/aphecetche/mft-show-off/issues"
+  },
+  "homepage": "https://github.com/aphecetche/mft-show-off#readme",
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "parallelshell": "^3.0.2",
+    "postcss-cli": "^4.1.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-font-magician": "^2.1.0",
+    "stylelint": "^8.4.0",
+    "stylelint-config-standard": "^17.0.0"
+  }
+}

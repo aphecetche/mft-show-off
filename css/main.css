@@ -1,0 +1,16 @@
+@import "typography";
+@import "landing";
+
+body {
+  background: white;
+}
+
+blockquote {
+  background-color: var(--warning-color);
+  display: block;
+  border: 1px solid black;
+  width: fit-content;
+  font-family: "Lobster";
+  letter-spacing: 0.5em;
+  font-weight: 900;
+}
