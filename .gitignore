@@ -63,3 +63,5 @@ typings/
 
 # Ignore sketch files
 *.sketch
+css/main.min.css
+assets/
