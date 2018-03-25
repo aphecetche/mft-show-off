@@ -1,0 +1,9 @@
+[build]
+publish = "public"
+command = "npm run build"
+
+[context.production.environment]
+HUGO_VERSION = "0.35"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+URL = "https://goofy-pare-316049.netlify.com/"
