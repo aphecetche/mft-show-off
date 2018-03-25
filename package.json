@@ -9,7 +9,7 @@
       "css:watch": "postcss themes/mft/static/css/main.css --config postcss.config.js --output themes/mft/static/css/main.min.css --watch",
       "css:build": "postcss themes/mft/static/css/main.css --config postcss.config.js --output themes/mft/static/css/main.min.css",
       "start": "npm run clean:public && parallelshell 'npm run css:watch' 'hugo serve --noHTTPCache --ignoreCache'",
-      "build": "npm run css:build && hugo --baseURL $URL"
+      "build": "npm run css:build && printenv && hugo version && hugo --baseURL $URL"
   },
   "repository": {
     "type": "git",
