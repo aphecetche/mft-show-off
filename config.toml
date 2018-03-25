@@ -1,0 +1,5 @@
+baseURL = "http://example.org/"
+defaultContentLanguage = "fr"
+title = "MFT Show Off Mini Site"
+theme = "mft"
+MetaDatFormat = "toml"

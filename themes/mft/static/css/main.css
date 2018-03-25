@@ -1,0 +1,14 @@
+@import "typography";
+@import "landing";
+
+body {
+  background: black;
+ font-family: "Roboto Mono";
+  color: white;
+}
+
+blockquote {
+  display: block;
+  width: fit-content;
+  font-weight: 300;
+}
