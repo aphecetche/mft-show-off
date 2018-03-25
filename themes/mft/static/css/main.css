@@ -1,14 +1,25 @@
 @import "typography";
 @import "landing";
+@import "image";
 
 body {
-  background: black;
  font-family: "Roboto Mono";
-  color: white;
+  background: black;
 }
 
 blockquote {
   display: block;
   width: fit-content;
   font-weight: 300;
+}
+
+section {
+  border: 1px solid white;
+  width:700px;
+  display: block;
+  margin: auto;
+}
+
+section h2 {
+  color: rgba(202, 173, 45, 0.76);
 }

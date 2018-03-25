@@ -8,8 +8,8 @@
       "clean:public": "rm -rf public",
       "css:watch": "postcss themes/mft/static/css/main.css --config postcss.config.js --output themes/mft/static/css/main.min.css --watch",
       "css:build": "postcss themes/mft/static/css/main.css --config postcss.config.js --output themes/mft/static/css/main.min.css",
-      "start": "npm run clean:public && parallelshell 'npm run css:watch' 'hugo serve --noHTTPCache --ignoreCache'",
-      "build": "npm run css:build && printenv && hugo version && hugo --baseURL $URL"
+      "start": "npm run clean:public && parallelshell 'npm run css:watch' 'hugo serve --baseURL http://192.168.0.242:1313 --noHTTPCache --ignoreCache --port 1313 --bind 0.0.0.0'",
+      "build": "npm run css:build && hugo version && hugo --baseURL $URL"
   },
   "repository": {
     "type": "git",

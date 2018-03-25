@@ -9,17 +9,17 @@
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
     <meta charset="UTF-8">
+    <script src="js/modernizr.js"></script>
 </head>
+
 <body>
-    <header>
-        entête
-    </header>
-    <blockquote>
-        oups. pas grand chose ici pour l'instant
-
-    </blockquote>
-    <footer>footer</footer>
-
+    {{ range where .Site.Pages "Type" "mft" }} {{ if .IsPage }}
+    <section>
+        {{ partial "section.html" . }}
+    </section>
+   {{ end }} {{ end }}
 </body>
-
+<script src="{{ .Site.BaseURL }}js/jquery-2.1.1.js"></script>
+<script src="{{ .Site.BaseURL }}js/jquery.mobile.custom.min.js"></script>
+<script src="{{ .Site.BaseURL }}js/imageSlider.js"></script>
 </html>
