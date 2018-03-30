@@ -336,8 +336,6 @@ p {
  font-size:18px;
  line-height: 1.6;
  color: #ccc;
- text-justify: auto;
- text-align: justify;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -354,7 +352,7 @@ h2 {
 .cd-image-container {
     position: relative;
     width: 90%;
-    max-width: 700px;
+    max-width: 500px;
     margin: 0em auto;
 }
 
@@ -488,7 +486,7 @@ h2 {
 .cd-image-container {
   position: relative;
   width: 90%;
-  max-width: 768px;
+  max-width: 500px;
   margin: 0em auto;
 }
 
@@ -626,8 +624,9 @@ section figure img {
        object-fit: fill;
 }
 
-body {
+html, body {
   background: black;
+  height: 100%;
 }
 
 blockquote {
@@ -642,5 +641,16 @@ section {
   max-width:700px;
   display: block;
   margin: auto;
+  text-align: center;
   margin-bottom: 2em;
+}
+
+section figure {
+  max-width: 50vh;
+  margin: 0 auto;
+}
+
+section p {
+  max-width: 60%;
+  margin: 0 auto;
 }

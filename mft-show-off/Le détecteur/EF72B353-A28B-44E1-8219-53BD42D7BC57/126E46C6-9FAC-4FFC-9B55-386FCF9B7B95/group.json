@@ -12,18 +12,18 @@
   },
   "frame": {
     "_class": "rect",
-    "constrainProportions": false,
-    "height": 1018,
-    "width": 1487,
-    "x": -47,
-    "y": -39
+    "constrainProportions": true,
+    "height": 500,
+    "width": 500,
+    "x": 84,
+    "y": 662
   },
   "hasClickThrough": false,
   "isFlippedHorizontal": false,
   "isFlippedVertical": false,
-  "isLocked": true,
+  "isLocked": false,
   "isVisible": true,
-  "layerListExpandedType": 1,
+  "layerListExpandedType": 2,
   "layers": [
     {
       "class": "shapeGroup",

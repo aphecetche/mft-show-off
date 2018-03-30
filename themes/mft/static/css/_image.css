@@ -1,7 +1,7 @@
 .cd-image-container {
     position: relative;
     width: 90%;
-    max-width: 700px;
+    max-width: 500px;
     margin: 0em auto;
 }
 
@@ -157,7 +157,7 @@
 .cd-image-container {
   position: relative;
   width: 90%;
-  max-width: 768px;
+  max-width: 500px;
   margin: 0em auto;
 }
 .cd-image-container img {

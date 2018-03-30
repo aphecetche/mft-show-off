@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    {{ range where .Site.Pages "Type" "mft" }} {{ if .IsPage }}
+    {{ range (where .Site.Pages "Type" "mft") }} {{ if .IsPage }}
     <section>
         {{ partial "section.html" . }}
     </section>
