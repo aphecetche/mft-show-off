@@ -1,15 +1,20 @@
 
 p {
- font-family: "Roboto Mono";
+ font-family: "Raleway";
  font-size:18px;
- line-height: 1.0;
+ line-height: 1.6;
  color: #ccc;
+ text-justify: auto;
+ text-align: justify;
 }
 
-header {
- font-family: "Noto Serif";
- font-size: 32px;
- font-weight: bold;
- color: blue;
- background: pink;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "EB Garamond";
+    font-weight: 400;
+    color: white;
+}
+
+h2 {
+    font-size: 1.8em;
+    line-height: 2;
 }

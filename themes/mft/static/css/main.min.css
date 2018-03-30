@@ -1,114 +1,354 @@
 @font-face {
- font-family: "Noto Serif";
- font-style: italic;
- font-weight: 400;
- src: local("Noto Serif Italic"),local(NotoSerif-Italic),url(//fonts.gstatic.com/s/notoserif/v6/HQXBIwLHsOJCNEQeX9kNz3Z2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/notoserif/v6/HQXBIwLHsOJCNEQeX9kNz-gdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/notoserif/v6/HQXBIwLHsOJCNEQeX9kNz3hCUOGz7vYGh680lGh-uXM.woff) format("woff");
+    font-family: "EB Garamond";
+    font-style: italic;
+    font-weight: 400;
+    src: local("EB Garamond Italic"),local(EBGaramond-Italic),url(//fonts.gstatic.com/s/ebgaramond/v9/a7ivpTe3zZzednsAv-J8JaSxSvC1lIsK_unZDHWqTBg.eot?#) format("eot"),url(//fonts.gstatic.com/s/ebgaramond/v9/a7ivpTe3zZzednsAv-J8Jcu2Q0OS-KeTAWjgkS85mDg.woff2) format("woff2"),url(//fonts.gstatic.com/s/ebgaramond/v9/a7ivpTe3zZzednsAv-J8JdkZXW4sYc4BjuAIFc1SXII.woff) format("woff");
 }
 
 @font-face {
- font-family: "Noto Serif";
- font-style: italic;
- font-weight: 700;
- src: local("Noto Serif Bold Italic"),local(NotoSerif-BoldItalic),url(//fonts.gstatic.com/s/notoserif/v6/Wreg0Be4tcFGM2t6VWytvGmsoyWrDyoltQVIP7q_RGg.eot?#) format("eot"),url(//fonts.gstatic.com/s/notoserif/v6/Wreg0Be4tcFGM2t6VWytvHNuWYKPzoeKl5tYj8yhly0.woff2) format("woff2"),url(//fonts.gstatic.com/s/notoserif/v6/Wreg0Be4tcFGM2t6VWytvHl4twXkwp3_u9ZoePkT564.woff) format("woff");
+    font-family: "EB Garamond";
+    font-style: italic;
+    font-weight: 500;
+    src: local("EB Garamond Medium Italic"),local(EBGaramond-MediumItalic),url(//fonts.gstatic.com/s/ebgaramond/v9/FBuKd0n5KoiDwUwHEzWyyfKmQu4cG5QnmuCFCsciK9o.eot?#) format("eot"),url(//fonts.gstatic.com/s/ebgaramond/v9/FBuKd0n5KoiDwUwHEzWyyQ28na7a-F9KZNLutV0Cpw0.woff2) format("woff2"),url(//fonts.gstatic.com/s/ebgaramond/v9/FBuKd0n5KoiDwUwHEzWyyXsOjp2j4oPInuz1P52HMwA.woff) format("woff");
 }
 
 @font-face {
- font-family: "Noto Serif";
- font-style: normal;
- font-weight: 400;
- src: local("Noto Serif"),local(NotoSerif),url(//fonts.gstatic.com/s/notoserif/v6/eCpfeMZI7q4jLksXVRWPQ1QlYEbsez9cZjKsNMjLOwM.eot?#) format("eot"),url(//fonts.gstatic.com/s/notoserif/v6/eCpfeMZI7q4jLksXVRWPQ_k_vArhqVIZ0nv9q090hN8.woff2) format("woff2"),url(//fonts.gstatic.com/s/notoserif/v6/eCpfeMZI7q4jLksXVRWPQxsxEYwM7FgeyaSgU71cLG0.woff) format("woff");
+    font-family: "EB Garamond";
+    font-style: italic;
+    font-weight: 600;
+    src: local("EB Garamond SemiBold Italic"),local(EBGaramond-SemiBoldItalic),url(//fonts.gstatic.com/s/ebgaramond/v9/FBuKd0n5KoiDwUwHEzWyyfPI9BiXwFYUKjuot8euIms.eot?#) format("eot"),url(//fonts.gstatic.com/s/ebgaramond/v9/FBuKd0n5KoiDwUwHEzWyyU6W9MvHLdhFU0Rd_4veb8w.woff2) format("woff2"),url(//fonts.gstatic.com/s/ebgaramond/v9/FBuKd0n5KoiDwUwHEzWyyYz4EF7XhASU9eO7C9WHZ84.woff) format("woff");
 }
 
 @font-face {
- font-family: "Noto Serif";
- font-style: normal;
- font-weight: 700;
- src: local("Noto Serif Bold"),local(NotoSerif-Bold),url(//fonts.gstatic.com/s/notoserif/v6/lJAvZoKA5NttpPc9yc6lPWzklk6MJbhg7BmBP42CjCQ.eot?#) format("eot"),url(//fonts.gstatic.com/s/notoserif/v6/lJAvZoKA5NttpPc9yc6lPYWiMMZ7xLd792ULpGE4W_Y.woff2) format("woff2"),url(//fonts.gstatic.com/s/notoserif/v6/lJAvZoKA5NttpPc9yc6lPQFhaRv2pGgT5Kf0An0s4MM.woff) format("woff");
+    font-family: "EB Garamond";
+    font-style: italic;
+    font-weight: 700;
+    src: local("EB Garamond Bold Italic"),local(EBGaramond-BoldItalic),url(//fonts.gstatic.com/s/ebgaramond/v9/FBuKd0n5KoiDwUwHEzWyydmkQI_kos-lIOeNt19QAas.eot?#) format("eot"),url(//fonts.gstatic.com/s/ebgaramond/v9/FBuKd0n5KoiDwUwHEzWyyY9ObOXPY1wUIXqKtDjSdsY.woff2) format("woff2"),url(//fonts.gstatic.com/s/ebgaramond/v9/FBuKd0n5KoiDwUwHEzWyyQRV2F9RPTaqyJ4QibDfkzM.woff) format("woff");
 }
 
 @font-face {
- font-family: "Roboto Mono";
- font-style: italic;
- font-weight: 100;
- src: local("Roboto Mono Thin Italic"),local(RobotoMono-ThinItalic),url(//fonts.gstatic.com/s/robotomono/v5/rqQ1zSE-ZGCKVZgew-A9dm6KUNDZn-maNE0jF5VeMII.eot?#) format("eot"),url(//fonts.gstatic.com/s/robotomono/v5/rqQ1zSE-ZGCKVZgew-A9dgCt6Xj8PpQTiblvscQDJGE.woff2) format("woff2"),url(//fonts.gstatic.com/s/robotomono/v5/rqQ1zSE-ZGCKVZgew-A9dghtpAimBp4V9tWdvRZqSBY.woff) format("woff");
+    font-family: "EB Garamond";
+    font-style: italic;
+    font-weight: 800;
+    src: local("EB Garamond ExtraBold Italic"),local(EBGaramond-ExtraBoldItalic),url(//fonts.gstatic.com/s/ebgaramond/v9/FBuKd0n5KoiDwUwHEzWyycLz2C-02ajj1TbReB0cKr0.eot?#) format("eot"),url(//fonts.gstatic.com/s/ebgaramond/v9/FBuKd0n5KoiDwUwHEzWyyUC6sznG7zHQDncEf6U2ato.woff2) format("woff2"),url(//fonts.gstatic.com/s/ebgaramond/v9/FBuKd0n5KoiDwUwHEzWyyRubm17CrcCGdbJfM9gq12Y.woff) format("woff");
 }
 
 @font-face {
- font-family: "Roboto Mono";
- font-style: italic;
- font-weight: 300;
- src: local("Roboto Mono Light Italic"),local(RobotoMono-LightItalic),url(//fonts.gstatic.com/s/robotomono/v5/1OsMuiiO6FCF2x67vzDKA1NjWrQGkHHRlfZ8BWrO3Hg.eot?#) format("eot"),url(//fonts.gstatic.com/s/robotomono/v5/1OsMuiiO6FCF2x67vzDKA2JNL1kWLlAYCVnltOJOPdY.woff2) format("woff2"),url(//fonts.gstatic.com/s/robotomono/v5/1OsMuiiO6FCF2x67vzDKAzri8ykLuesnP4qBvpSenQU.woff) format("woff");
+    font-family: "EB Garamond";
+    font-style: normal;
+    font-weight: 400;
+    src: local("EB Garamond Regular"),local(EBGaramond-Regular),url(//fonts.gstatic.com/s/ebgaramond/v9/kYZt1bJ8UsGAPRGnkXPeFWfQcKutQXcIrRfyR5jdjY8.eot?#) format("eot"),url(//fonts.gstatic.com/s/ebgaramond/v9/kYZt1bJ8UsGAPRGnkXPeFY4P5ICox8Kq3LLUNMylGO4.woff2) format("woff2"),url(//fonts.gstatic.com/s/ebgaramond/v9/kYZt1bJ8UsGAPRGnkXPeFYbN6UDyHWBl620a-IRfuBk.woff) format("woff");
 }
 
 @font-face {
- font-family: "Roboto Mono";
- font-style: italic;
- font-weight: 400;
- src: local("Roboto Mono Italic"),local(RobotoMono-Italic),url(//fonts.gstatic.com/s/robotomono/v5/mE0EPT_93c7f86_WQexR3KSxSvC1lIsK_unZDHWqTBg.eot?#) format("eot"),url(//fonts.gstatic.com/s/robotomono/v5/mE0EPT_93c7f86_WQexR3Mu2Q0OS-KeTAWjgkS85mDg.woff2) format("woff2"),url(//fonts.gstatic.com/s/robotomono/v5/mE0EPT_93c7f86_WQexR3NkZXW4sYc4BjuAIFc1SXII.woff) format("woff");
+    font-family: "EB Garamond";
+    font-style: normal;
+    font-weight: 500;
+    src: local("EB Garamond Medium"),local(EBGaramond-Medium),url(//fonts.gstatic.com/s/ebgaramond/v9/op4fHM8PJYvTt3cOgGzs_yGu2KOSTawI8d9zCvShylg.eot?#) format("eot"),url(//fonts.gstatic.com/s/ebgaramond/v9/op4fHM8PJYvTt3cOgGzs_7BojE9J5UnpMtv5N3zfxwk.woff2) format("woff2"),url(//fonts.gstatic.com/s/ebgaramond/v9/op4fHM8PJYvTt3cOgGzs_yqHEX2q--o2so14pIEl08w.woff) format("woff");
 }
 
 @font-face {
- font-family: "Roboto Mono";
- font-style: italic;
- font-weight: 500;
- src: local("Roboto Mono Medium Italic"),local(RobotoMono-MediumItalic),url(//fonts.gstatic.com/s/robotomono/v5/1OsMuiiO6FCF2x67vzDKA_KmQu4cG5QnmuCFCsciK9o.eot?#) format("eot"),url(//fonts.gstatic.com/s/robotomono/v5/1OsMuiiO6FCF2x67vzDKAw28na7a-F9KZNLutV0Cpw0.woff2) format("woff2"),url(//fonts.gstatic.com/s/robotomono/v5/1OsMuiiO6FCF2x67vzDKA3sOjp2j4oPInuz1P52HMwA.woff) format("woff");
+    font-family: "EB Garamond";
+    font-style: normal;
+    font-weight: 600;
+    src: local("EB Garamond SemiBold"),local(EBGaramond-SemiBold),url(//fonts.gstatic.com/s/ebgaramond/v9/op4fHM8PJYvTt3cOgGzs_48mkAiYpFywqG2RvpzBnTU.eot?#) format("eot"),url(//fonts.gstatic.com/s/ebgaramond/v9/op4fHM8PJYvTt3cOgGzs_12umOyRU7PgRiv8DXcgJjk.woff2) format("woff2"),url(//fonts.gstatic.com/s/ebgaramond/v9/op4fHM8PJYvTt3cOgGzs_35HxGBcBvicCpTp6spHfNo.woff) format("woff");
 }
 
 @font-face {
- font-family: "Roboto Mono";
- font-style: italic;
- font-weight: 700;
- src: local("Roboto Mono Bold Italic"),local(RobotoMono-BoldItalic),url(//fonts.gstatic.com/s/robotomono/v5/1OsMuiiO6FCF2x67vzDKA9mkQI_kos-lIOeNt19QAas.eot?#) format("eot"),url(//fonts.gstatic.com/s/robotomono/v5/1OsMuiiO6FCF2x67vzDKA49ObOXPY1wUIXqKtDjSdsY.woff2) format("woff2"),url(//fonts.gstatic.com/s/robotomono/v5/1OsMuiiO6FCF2x67vzDKAwRV2F9RPTaqyJ4QibDfkzM.woff) format("woff");
+    font-family: "EB Garamond";
+    font-style: normal;
+    font-weight: 700;
+    src: local("EB Garamond Bold"),local(EBGaramond-Bold),url(//fonts.gstatic.com/s/ebgaramond/v9/op4fHM8PJYvTt3cOgGzs_7Ft29aCHKT7otDW9l62Aag.eot?#) format("eot"),url(//fonts.gstatic.com/s/ebgaramond/v9/op4fHM8PJYvTt3cOgGzs_4lIZu-HDpmDIZMigmsroc4.woff2) format("woff2"),url(//fonts.gstatic.com/s/ebgaramond/v9/op4fHM8PJYvTt3cOgGzs_zqR_3kx9_hJXbbyU8S6IN0.woff) format("woff");
 }
 
 @font-face {
- font-family: "Roboto Mono";
- font-style: normal;
- font-weight: 100;
- src: local("Roboto Mono Thin"),local(RobotoMono-Thin),url(//fonts.gstatic.com/s/robotomono/v5/aOIeRp72J9_Hp_8KwQ9M-beskzFlZTkzN_FGynPZJZk.eot?#) format("eot"),url(//fonts.gstatic.com/s/robotomono/v5/aOIeRp72J9_Hp_8KwQ9M-dFPPhm6yPYYGACxOp9LMJ4.woff2) format("woff2"),url(//fonts.gstatic.com/s/robotomono/v5/aOIeRp72J9_Hp_8KwQ9M-SeJLMOzE6CCkidNEpZOseY.woff) format("woff");
+    font-family: "EB Garamond";
+    font-style: normal;
+    font-weight: 800;
+    src: local("EB Garamond ExtraBold"),local(EBGaramond-ExtraBold),url(//fonts.gstatic.com/s/ebgaramond/v9/op4fHM8PJYvTt3cOgGzs_5hT2rkLFFMVLymfgfmWVtI.eot?#) format("eot"),url(//fonts.gstatic.com/s/ebgaramond/v9/op4fHM8PJYvTt3cOgGzs_3ibbpXgLHK_uTT48UMyjSM.woff2) format("woff2"),url(//fonts.gstatic.com/s/ebgaramond/v9/op4fHM8PJYvTt3cOgGzs_0CDe67GEgBv_HnyvHTfdew.woff) format("woff");
 }
 
 @font-face {
- font-family: "Roboto Mono";
- font-style: normal;
- font-weight: 300;
- src: local("Roboto Mono Light"),local(RobotoMono-Light),url(//fonts.gstatic.com/s/robotomono/v5/N4duVc9C58uwPiY8_59Fz7XcjzEax2LfQAlK8DdMzhA.eot?#) format("eot"),url(//fonts.gstatic.com/s/robotomono/v5/N4duVc9C58uwPiY8_59Fz0o2lTMeWA_kmIyWrkNCwPc.woff2) format("woff2"),url(//fonts.gstatic.com/s/robotomono/v5/N4duVc9C58uwPiY8_59Fzx_xHqYgAV9Bl_ZQbYUxnQU.woff) format("woff");
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: 100;
+    src: local("Raleway Thin Italic"),local(Raleway-ThinItalic),url(//fonts.gstatic.com/s/raleway/v12/IWp_KHUkJoKURWwpAA2nYGfQcKutQXcIrRfyR5jdjY8.eot?#) format("eot"),url(//fonts.gstatic.com/s/raleway/v12/IWp_KHUkJoKURWwpAA2nYI4P5ICox8Kq3LLUNMylGO4.woff2) format("woff2"),url(//fonts.gstatic.com/s/raleway/v12/IWp_KHUkJoKURWwpAA2nYIbN6UDyHWBl620a-IRfuBk.woff) format("woff");
 }
 
 @font-face {
- font-family: "Roboto Mono";
- font-style: normal;
- font-weight: 400;
- src: local("Roboto Mono"),local(RobotoMono-Regular),url(//fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY2fQcKutQXcIrRfyR5jdjY8.eot?#) format("eot"),url(//fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY44P5ICox8Kq3LLUNMylGO4.woff2) format("woff2"),url(//fonts.gstatic.com/s/robotomono/v5/hMqPNLsu_dywMa4C_DEpY4bN6UDyHWBl620a-IRfuBk.woff) format("woff");
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: 200;
+    src: local("Raleway ExtraLight Italic"),local(Raleway-ExtraLightItalic),url(//fonts.gstatic.com/s/raleway/v12/N2DIbZG4399cPGfifZUEQnZ2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/raleway/v12/N2DIbZG4399cPGfifZUEQugdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/raleway/v12/N2DIbZG4399cPGfifZUEQnhCUOGz7vYGh680lGh-uXM.woff) format("woff");
 }
 
 @font-face {
- font-family: "Roboto Mono";
- font-style: normal;
- font-weight: 500;
- src: local("Roboto Mono Medium"),local(RobotoMono-Medium),url(//fonts.gstatic.com/s/robotomono/v5/N4duVc9C58uwPiY8_59FzyGu2KOSTawI8d9zCvShylg.eot?#) format("eot"),url(//fonts.gstatic.com/s/robotomono/v5/N4duVc9C58uwPiY8_59Fz7BojE9J5UnpMtv5N3zfxwk.woff2) format("woff2"),url(//fonts.gstatic.com/s/robotomono/v5/N4duVc9C58uwPiY8_59FzyqHEX2q--o2so14pIEl08w.woff) format("woff");
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: 300;
+    src: local("Raleway Light Italic"),local(Raleway-LightItalic),url(//fonts.gstatic.com/s/raleway/v12/TVSB8ogXDKMcnAAJ5CqrUnZ2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/raleway/v12/TVSB8ogXDKMcnAAJ5CqrUugdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/raleway/v12/TVSB8ogXDKMcnAAJ5CqrUnhCUOGz7vYGh680lGh-uXM.woff) format("woff");
 }
 
 @font-face {
- font-family: "Roboto Mono";
- font-style: normal;
- font-weight: 700;
- src: local("Roboto Mono Bold"),local(RobotoMono-Bold),url(//fonts.gstatic.com/s/robotomono/v5/N4duVc9C58uwPiY8_59Fz7Ft29aCHKT7otDW9l62Aag.eot?#) format("eot"),url(//fonts.gstatic.com/s/robotomono/v5/N4duVc9C58uwPiY8_59Fz4lIZu-HDpmDIZMigmsroc4.woff2) format("woff2"),url(//fonts.gstatic.com/s/robotomono/v5/N4duVc9C58uwPiY8_59FzzqR_3kx9_hJXbbyU8S6IN0.woff) format("woff");
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: 400;
+    src: local("Raleway Italic"),local(Raleway-Italic),url(//fonts.gstatic.com/s/raleway/v12/IIm-lPOtfVKQy0GMiczF__Y6323mHUZFJMgTvxaG2iE.eot?#) format("eot"),url(//fonts.gstatic.com/s/raleway/v12/IIm-lPOtfVKQy0GMiczF_1tXRa8TVwTICgirnJhmVJw.woff2) format("woff2"),url(//fonts.gstatic.com/s/raleway/v12/IIm-lPOtfVKQy0GMiczF_z8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
+}
+
+@font-face {
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: 500;
+    src: local("Raleway Medium Italic"),local(Raleway-MediumItalic),url(//fonts.gstatic.com/s/raleway/v12/S7vGLZZ40c85SJgiptJGV3Z2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/raleway/v12/S7vGLZZ40c85SJgiptJGV-gdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/raleway/v12/S7vGLZZ40c85SJgiptJGV3hCUOGz7vYGh680lGh-uXM.woff) format("woff");
+}
+
+@font-face {
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: 600;
+    src: local("Raleway SemiBold Italic"),local(Raleway-SemiBoldItalic),url(//fonts.gstatic.com/s/raleway/v12/OY22yoG8EJ3IN_muVWm29HZ2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/raleway/v12/OY22yoG8EJ3IN_muVWm29Ogdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/raleway/v12/OY22yoG8EJ3IN_muVWm29HhCUOGz7vYGh680lGh-uXM.woff) format("woff");
+}
+
+@font-face {
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: 700;
+    src: local("Raleway Bold Italic"),local(Raleway-BoldItalic),url(//fonts.gstatic.com/s/raleway/v12/lFxvRPuGFG5ktd7P0WRwKnZ2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/raleway/v12/lFxvRPuGFG5ktd7P0WRwKugdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/raleway/v12/lFxvRPuGFG5ktd7P0WRwKnhCUOGz7vYGh680lGh-uXM.woff) format("woff");
+}
+
+@font-face {
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: 800;
+    src: local("Raleway ExtraBold Italic"),local(Raleway-ExtraBoldItalic),url(//fonts.gstatic.com/s/raleway/v12/us4LjTCmlYgh3W8CKujEJnZ2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/raleway/v12/us4LjTCmlYgh3W8CKujEJugdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/raleway/v12/us4LjTCmlYgh3W8CKujEJnhCUOGz7vYGh680lGh-uXM.woff) format("woff");
+}
+
+@font-face {
+    font-family: Raleway;
+    font-style: italic;
+    font-weight: 900;
+    src: local("Raleway Black Italic"),local(Raleway-BlackItalic),url(//fonts.gstatic.com/s/raleway/v12/oY2RadnkHfshu5f0FLsgVXZ2MAKAc2x4R1uOSeegc5U.eot?#) format("eot"),url(//fonts.gstatic.com/s/raleway/v12/oY2RadnkHfshu5f0FLsgVegdm0LZdjqr5-oayXSOefg.woff2) format("woff2"),url(//fonts.gstatic.com/s/raleway/v12/oY2RadnkHfshu5f0FLsgVXhCUOGz7vYGh680lGh-uXM.woff) format("woff");
+}
+
+@font-face {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 100;
+    src: local("Raleway Thin"),local(Raleway-Thin),url(//fonts.gstatic.com/s/raleway/v12/RJMlAoFXXQEzZoMSUteGWPY6323mHUZFJMgTvxaG2iE.eot?#) format("eot"),url(//fonts.gstatic.com/s/raleway/v12/RJMlAoFXXQEzZoMSUteGWFtXRa8TVwTICgirnJhmVJw.woff2) format("woff2"),url(//fonts.gstatic.com/s/raleway/v12/RJMlAoFXXQEzZoMSUteGWD8E0i7KZn-EPnyo3HZu7kw.woff) format("woff");
+}
+
+@font-face {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 200;
+    src: local("Raleway ExtraLight"),local(Raleway-ExtraLight),url(//fonts.gstatic.com/s/raleway/v12/8KhZd3VQBtXTAznvKjw-k1QlYEbsez9cZjKsNMjLOwM.eot?#) format("eot"),url(//fonts.gstatic.com/s/raleway/v12/8KhZd3VQBtXTAznvKjw-k_k_vArhqVIZ0nv9q090hN8.woff2) format("woff2"),url(//fonts.gstatic.com/s/raleway/v12/8KhZd3VQBtXTAznvKjw-kxsxEYwM7FgeyaSgU71cLG0.woff) format("woff");
+}
+
+@font-face {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 300;
+    src: local("Raleway Light"),local(Raleway-Light),url(//fonts.gstatic.com/s/raleway/v12/-_Ctzj9b56b8RgXW8FAriVQlYEbsez9cZjKsNMjLOwM.eot?#) format("eot"),url(//fonts.gstatic.com/s/raleway/v12/-_Ctzj9b56b8RgXW8FArifk_vArhqVIZ0nv9q090hN8.woff2) format("woff2"),url(//fonts.gstatic.com/s/raleway/v12/-_Ctzj9b56b8RgXW8FAriRsxEYwM7FgeyaSgU71cLG0.woff) format("woff");
+}
+
+@font-face {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    src: local(Raleway),local(Raleway-Regular),url(//fonts.gstatic.com/s/raleway/v12/JDau3G46nqY5-B-S9E_nwg.eot?#) format("eot"),url(//fonts.gstatic.com/s/raleway/v12/0dTEPzkLWceF7z0koJaX1A.woff2) format("woff2"),url(//fonts.gstatic.com/s/raleway/v12/IczWvq5y_Cwwv_rBjOtT0w.woff) format("woff");
+}
+
+@font-face {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    src: local("Raleway Medium"),local(Raleway-Medium),url(//fonts.gstatic.com/s/raleway/v12/CcKI4k9un7TZVWzRVT-T81QlYEbsez9cZjKsNMjLOwM.eot?#) format("eot"),url(//fonts.gstatic.com/s/raleway/v12/CcKI4k9un7TZVWzRVT-T8_k_vArhqVIZ0nv9q090hN8.woff2) format("woff2"),url(//fonts.gstatic.com/s/raleway/v12/CcKI4k9un7TZVWzRVT-T8xsxEYwM7FgeyaSgU71cLG0.woff) format("woff");
+}
+
+@font-face {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    src: local("Raleway SemiBold"),local(Raleway-SemiBold),url(//fonts.gstatic.com/s/raleway/v12/xkvoNo9fC8O2RDydKj12b1QlYEbsez9cZjKsNMjLOwM.eot?#) format("eot"),url(//fonts.gstatic.com/s/raleway/v12/xkvoNo9fC8O2RDydKj12b_k_vArhqVIZ0nv9q090hN8.woff2) format("woff2"),url(//fonts.gstatic.com/s/raleway/v12/xkvoNo9fC8O2RDydKj12bxsxEYwM7FgeyaSgU71cLG0.woff) format("woff");
+}
+
+@font-face {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    src: local("Raleway Bold"),local(Raleway-Bold),url(//fonts.gstatic.com/s/raleway/v12/JbtMzqLaYbbbCL9X6EvaI1QlYEbsez9cZjKsNMjLOwM.eot?#) format("eot"),url(//fonts.gstatic.com/s/raleway/v12/JbtMzqLaYbbbCL9X6EvaI_k_vArhqVIZ0nv9q090hN8.woff2) format("woff2"),url(//fonts.gstatic.com/s/raleway/v12/JbtMzqLaYbbbCL9X6EvaIxsxEYwM7FgeyaSgU71cLG0.woff) format("woff");
+}
+
+@font-face {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 800;
+    src: local("Raleway ExtraBold"),local(Raleway-ExtraBold),url(//fonts.gstatic.com/s/raleway/v12/1ImRNPx4870-D9a1EBUdPFQlYEbsez9cZjKsNMjLOwM.eot?#) format("eot"),url(//fonts.gstatic.com/s/raleway/v12/1ImRNPx4870-D9a1EBUdPPk_vArhqVIZ0nv9q090hN8.woff2) format("woff2"),url(//fonts.gstatic.com/s/raleway/v12/1ImRNPx4870-D9a1EBUdPBsxEYwM7FgeyaSgU71cLG0.woff) format("woff");
+}
+
+@font-face {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 900;
+    src: local("Raleway Black"),local(Raleway-Black),url(//fonts.gstatic.com/s/raleway/v12/PKCRbVvRfd5n7BTjtGiFZFQlYEbsez9cZjKsNMjLOwM.eot?#) format("eot"),url(//fonts.gstatic.com/s/raleway/v12/PKCRbVvRfd5n7BTjtGiFZPk_vArhqVIZ0nv9q090hN8.woff2) format("woff2"),url(//fonts.gstatic.com/s/raleway/v12/PKCRbVvRfd5n7BTjtGiFZBsxEYwM7FgeyaSgU71cLG0.woff) format("woff");
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 p {
- font-family: "Roboto Mono";
+ font-family: "Raleway";
  font-size:18px;
- line-height: 1.0;
+ line-height: 1.6;
  color: #ccc;
+ text-justify: auto;
+ text-align: justify;
 }
 
-header {
- font-family: "Noto Serif";
- font-size: 32px;
- font-weight: bold;
- color: blue;
- background: pink;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "EB Garamond";
+    font-weight: 400;
+    color: white;
+}
+
+h2 {
+    font-size: 1.8em;
+    line-height: 2;
 }
 
 .cd-image-container {
@@ -380,13 +620,13 @@ header {
 }
 
 section figure img {
+    padding: 0;
     width: 100%;
     -o-object-fit: fill;
        object-fit: fill;
 }
 
 body {
- font-family: "Roboto Mono";
   background: black;
 }
 
@@ -399,12 +639,8 @@ blockquote {
 }
 
 section {
-  border: 1px solid white;
-  width:700px;
+  max-width:700px;
   display: block;
   margin: auto;
-}
-
-section h2 {
-  color: rgba(202, 173, 45, .76);
+  margin-bottom: 2em;
 }
