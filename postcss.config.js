@@ -1,7 +1,7 @@
 module.exports = {
     plugins: [
         require('postcss-easy-import')({
-            'path': ['themes/mft/static/css/'],
+            'path': ['themes/mft/css/'],
             'prefix': '_',
             'extension': 'css'
         }),

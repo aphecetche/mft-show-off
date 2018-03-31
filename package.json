@@ -2,14 +2,15 @@
   "name": "mft-show-off",
   "version": "0.1.0",
   "description": "Le MFT : un détecteur de précision pour la physique du plasma de quarks et de gluons",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-      "clean": "rm -f themes/mft/static/css/*.min.css",
-      "clean:public": "rm -rf public",
-      "css:watch": "postcss themes/mft/static/css/main.css --config postcss.config.js --output themes/mft/static/css/main.min.css --watch",
-      "css:build": "postcss themes/mft/static/css/main.css --config postcss.config.js --output themes/mft/static/css/main.min.css",
-      "start": "npm run clean:public && parallelshell 'npm run css:watch' 'hugo serve --baseURL http://192.168.0.242:1313 --noHTTPCache --ignoreCache --port 1313 --bind 0.0.0.0'",
-      "build": "npm run css:build && hugo version && hugo --baseURL $URL"
+    "clean": "rm -f themes/mft/static/css/*.min.css",
+    "clean:public": "rm -rf public",
+    "css:watch": "postcss themes/mft/css/main.css --config postcss.config.js --output themes/mft/static/css/main.min.css --watch",
+    "css:build": "postcss themes/mft/css/main.css --config postcss.config.js --output themes/mft/static/css/main.min.css",
+    "webpack:watch": "webpack --watch",
+    "start": "npm run clean:public && parallelshell 'npm run css:watch' 'npm run webpack:watch' 'hugo serve --baseURL http://192.168.0.242:1313 --noHTTPCache --ignoreCache --port 1313 --bind 0.0.0.0'",
+    "build": "npm run css:build && hugo version && hugo --baseURL $URL"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,12 @@
     "postcss-easy-import": "^3.0.0",
     "postcss-font-magician": "^2.1.0",
     "stylelint": "^8.4.0",
-    "stylelint-config-standard": "^17.0.0"
+    "stylelint-config-standard": "^17.0.0",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jquery-mobile": "^1.5.0-alpha.1"
   }
 }

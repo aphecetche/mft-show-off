@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html class="no-js">
 
 <head>
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.min.css">
+    <script src="{{ .Site.BaseURL }}js/bundle.js"></script>
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#ffffff">
     <meta charset="UTF-8">
-    <script src="js/modernizr.js"></script>
 </head>
 
 <body>
+    <noscript>JavaScript semble non fonctionnel sur votre navigateur. Ce n'est pas une catastrophe mais 
+        le site serait plus joli avec JavaScript...
+    </noscript>
+
     {{ range (where .Site.Pages "Type" "mft") }} {{ if .IsPage }}
     <section>
         {{ partial "section.html" . }}
     </section>
    {{ end }} {{ end }}
 </body>
-<script src="{{ .Site.BaseURL }}js/jquery-2.1.1.js"></script>
-<script src="{{ .Site.BaseURL }}js/jquery.mobile.custom.min.js"></script>
-<script src="{{ .Site.BaseURL }}js/imageSlider.js"></script>
 </html>
