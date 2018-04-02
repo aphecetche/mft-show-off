@@ -35,6 +35,7 @@
     "webpack-cli": "^2.0.13"
   },
   "dependencies": {
+    "gaussian": "^1.1.0",
     "jquery": "^3.3.1",
     "jquery-mobile": "^1.5.0-alpha.1"
   }

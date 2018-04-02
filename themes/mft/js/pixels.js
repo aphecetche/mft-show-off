@@ -1,20 +1,34 @@
-function getRandomColor() {
-    var letters = '123456789ABCDEF';
-    //var letters = '789ABCD';
-    var color = '#';
-    for (var i = 0; i < 6; i++) {
-        color += letters[Math.floor(Math.random() * 15)];
+var gaussian = require('gaussian');
+
+var updateFrequency = "500"; //ms
+
+function getRandomColor(x, y) {
+    var mean = x / 500;
+    var variance = 70;
+    var distribution = gaussian(20 + mean * 200, variance);
+    // Take a random sample using inverse transform sampling method. 
+    var hue = distribution.ppf(Math.random());
+
+    if (y < 100 || y > 320) {
+        if (Math.random() > 0.5) {
+            return "white";
+        }
     }
-    return color;
+
+    var saturation = "100";
+    var luminance = "50";
+    saturation = 80 + Math.random() * 20;
+    return "hsl(" + hue + "," + saturation + "%," + luminance + "%)";
 }
 
 function fillPixels(pixels) {
-    console.log("in fillPixels function");
     var pixels = document.getElementById('pixels');
     var c = pixels.children;
-  for ( i = 0; i< c.length; ++i ) {
-      c[i].setAttributeNS(null,'fill',getRandomColor());
-  }
+    for (i = 0; i < c.length; ++i) {
+        var x = c[i].getAttributeNS(null, 'x');
+        var y = c[i].getAttributeNS(null, 'y');
+        c[i].setAttributeNS(null, 'fill', getRandomColor(x, y));
+    }
 }
 
 function createPixels(pixels) {
@@ -32,13 +46,13 @@ function createPixels(pixels) {
             pixels.appendChild(rect);
         }
     }
-    setInterval(fillPixels,1000);
+    setInterval(fillPixels, updateFrequency);
 }
 
 function pixels() {
     var pixels = document.getElementById('pixels');
     var npixels = pixels.childElementCount;
-    if (npixels==0) {
+    if (npixels == 0) {
         createPixels(pixels);
     }
 }

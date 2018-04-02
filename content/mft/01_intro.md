@@ -4,9 +4,7 @@ description = "généralités ici"
 weight = 1
 +++
 
-<figure>
-<img src="img/500mpixels-couleur.png">
-</figure>
+{{< svg "500mpixels.svg" >}}
 
 ## Un détecteur de ouf
 
