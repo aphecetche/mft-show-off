@@ -1,0 +1,40 @@
+section {
+    border: 5px solid red;
+}
+
+section figure {
+    border: 5px solid var(--img-border-color);
+}
+
+section header {
+    border: 5px solid blue;
+}
+
+section article {
+    border: 5px solid yellow;
+}
+
+section header p {
+    background: blue;
+}
+
+section header h2 {
+    background: darkblue;
+}
+
+header {
+background: rgb(16, 44, 88);
+}
+
+:root {
+    --img-border-color: yellow;
+}
+article p {
+    background: green;
+}
+
+@media (--only-medium-screen) {
+    :root {
+        --img-border-color: pink;
+    }
+}

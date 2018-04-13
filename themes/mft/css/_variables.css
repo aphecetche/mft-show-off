@@ -1,0 +1,26 @@
+:root {
+    --warning-color: yellow;
+    --section-intro-color: #8DD9F5;
+    --section-flex-color: #FAD975;
+    --section-elec-color: #C1F2C2;
+    --max-img-size: 300px;
+}
+
+$medium-viewport: 768px;
+$large-viewport: 1024px;
+
+@custom-media --only-medium-screen ($medium-viewport <= width <=$large-viewport);
+@custom-media --large-screen (width>$large-viewport);
+@custom-media --small-screen (width<$medium-viewport);
+
+@media (--only-medium-screen) {
+    :root {
+        --max-img-size: 500px;
+    }
+}
+
+@media (--large-screen) {
+    :root {
+        --max-img-size: 700px;
+    }
+}

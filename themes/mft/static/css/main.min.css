@@ -351,8 +351,22 @@ h2 {
 
 .cd-image-container {
     position: relative;
-    max-width: 50vh;
+    max-width: 300px;
     margin: 0em auto;
+}
+
+@media (min-width: 1025px) {
+
+    .cd-image-container {
+    max-width: 700px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .cd-image-container {
+    max-width: 500px;
+    }
 }
 
 .cd-image-container img {
@@ -365,12 +379,9 @@ h2 {
     right: 0;
     color: #ffffff;
     padding: 1em;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
     opacity: 0;
     -webkit-transform: translateY(20px);
-    transform: translateY(20px);
-    -webkit-transition: -webkit-transform 0.3s 0.7s, opacity 0.3s 0.7s;
+            transform: translateY(20px);
     -webkit-transition: opacity 0.3s 0.7s, -webkit-transform 0.3s 0.7s;
     transition: opacity 0.3s 0.7s, -webkit-transform 0.3s 0.7s;
     transition: transform 0.3s 0.7s, opacity 0.3s 0.7s;
@@ -384,7 +395,7 @@ h2 {
 .is-visible .cd-image-label {
     opacity: 1;
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
 }
 
 .cd-resize-img {
@@ -394,11 +405,10 @@ h2 {
     width: 0;
     height: 100%;
     overflow: hidden;
-    /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
-    transform: translateZ(0);
+            transform: translateZ(0);
     -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+            backface-visibility: hidden;
 }
 
 .cd-resize-img img {
@@ -420,7 +430,7 @@ h2 {
     width: 50%;
     /* bounce in animation of the modified image */
     -webkit-animation: cd-bounce-in 0.7s;
-    animation: cd-bounce-in 0.7s;
+            animation: cd-bounce-in 0.7s;
 }
 
 @-webkit-keyframes cd-bounce-in {
@@ -463,7 +473,7 @@ h2 {
             box-shadow: 0 0 0 6px rgba(0, 0, 0, .2), 0 0 10px rgba(0, 0, 0, .6), inset 0 1px 0 rgba(255, 255, 255, .3);
     opacity: 0;
     -webkit-transform: translate3d(0, 0, 0) scale(0);
-    transform: translate3d(0, 0, 0) scale(0);
+            transform: translate3d(0, 0, 0) scale(0);
 }
 
 .cd-handle.draggable {
@@ -474,8 +484,7 @@ h2 {
 .is-visible .cd-handle {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0) scale(1);
-    transform: translate3d(0, 0, 0) scale(1);
-    -webkit-transition: -webkit-transform 0.3s 0.7s, opacity 0s 0.7s;
+            transform: translate3d(0, 0, 0) scale(1);
     -webkit-transition: opacity 0s 0.7s, -webkit-transform 0.3s 0.7s;
     transition: opacity 0s 0.7s, -webkit-transform 0.3s 0.7s;
     transition: transform 0.3s 0.7s, opacity 0s 0.7s;
@@ -489,14 +498,167 @@ section figure img {
        object-fit: fill;
 }
 
-#svg500mpix {
-    max-width: 50vh;
+section figure svg {
+    width:100%;
+    -o-object-fit: fill;
+       object-fit: fill;
 }
+
+img {
+    border: undefined;
+}
+
+section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+}
+
+body > section {
+    margin: 0 10px 0 10px;
+    padding: 0;
+}
+
+header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+}
+
+header figure {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+    padding: 10px;
+    -webkit-box-flex: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
+}
+
+header > section.cover {
+    -webkit-box-flex:1;
+        -ms-flex-positive:1;
+            flex-grow:1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+header p {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    font-size: 1.3em;
+}
+
+section.cover > p {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    font-style: italic;
+}
+
+section.cover h2 {
+    font-size: 2em;
+    -webkit-box-ordinal-group:2;
+        -ms-flex-order:1;
+            order:1;
+}
+
+article p {
+    font-size: 1em;
+}
+
+@media (min-width: 768px) {
+    section > header {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: row;
+                flex-flow: row;
+    }
+    section.cover {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-flow: column-reverse;
+                flex-flow: column-reverse;
+    }
+    section.cover > p {
+        -webkit-box-ordinal-group:2;
+            -ms-flex-order:1;
+                order:1;
+    }
+    section.cover > h2 {
+        -webkit-box-ordinal-group:3;
+            -ms-flex-order:2;
+                order:2;
+    }
+}
+
+@media (min-width: 1024px) {
+    section > header {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: row;
+                flex-flow: row;
+    }
+    section {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: row;
+                flex-flow: row;
+    }
+    section.cover > h2 {
+        -webkit-box-ordinal-group:3;
+            -ms-flex-order:2;
+                order:2;
+    }
+}
+
+section.intro > header h2 {
+color: #8DD9F5;
+}
+
+section.intro > header strong {
+color: #8DD9F5;
+}
+
+section.flex > header h2 {
+color:#FAD975;
+}
+
+section.flex > header strong {
+color:#FAD975;
+}
+
+section.elec > header h2 {
+color: #C1F2C2;
+}
+
+section.elec > header strong {
+color: #C1F2C2;
+}
+
+/* @import "debug"; */
 
 html, body {
   background: black;
   height: 100%;
   width: 100%;
+  font-size: 16px;
 }
 
 blockquote {
@@ -505,24 +667,6 @@ blockquote {
   width: -moz-fit-content;
   width: fit-content;
   font-weight: 300;
-}
-
-section {
-  max-width:700px;
-  display: block;
-  margin: auto;
-  text-align: center;
-  margin-bottom: 2em;
-}
-
-section figure {
-  max-width: 50vh;
-  margin: 0 auto;
-}
-
-section p {
-  max-width: 50vh;
-  margin: 0 auto;
 }
 
 noscript {

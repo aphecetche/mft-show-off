@@ -1,0 +1,61 @@
+{
+  "_class": "group",
+  "do_objectID": "58EA9AD2-0C15-4C77-A3B9-1243081F64F5",
+  "exportOptions": {
+    "_class": "exportOptions",
+    "do_objectID": "44D10B49-2589-4E62-923C-19B3D394E918",
+    "exportFormats": [
+      {
+        "_class": "exportFormat",
+        "absoluteSize": 0,
+        "fileFormat": "png",
+        "name": "",
+        "namingScheme": 0,
+        "scale": 1,
+        "visibleScaleType": 0
+      }
+    ],
+    "includedLayerIds": [
+    ],
+    "layerOptions": 0,
+    "shouldTrim": false
+  },
+  "frame": {
+    "_class": "rect",
+    "constrainProportions": true,
+    "do_objectID": "4DD80DE4-5BF4-420B-94F6-8BC2ED578F60",
+    "height": 272,
+    "width": 303,
+    "x": 7,
+    "y": 22
+  },
+  "hasClickThrough": false,
+  "isFlippedHorizontal": false,
+  "isFlippedVertical": false,
+  "isLocked": false,
+  "isVisible": true,
+  "layerListExpandedType": 1,
+  "layers": [
+    {
+      "class": "shapeGroup",
+      "id": "C2F712E1-E77B-4BF7-9A3D-A1A879471A2E"
+    },
+    {
+      "class": "bitmap",
+      "id": "15D0ACFE-AAD0-49BB-A4B4-1649AFDCA324"
+    }
+  ],
+  "name": "Pixels 500 Millions ",
+  "nameIsFixed": true,
+  "resizingConstraint": 63,
+  "resizingType": 0,
+  "rotation": 0,
+  "shouldBreakMaskChain": false,
+  "style": {
+    "_class": "style",
+    "do_objectID": "2A798A7E-1759-4CC3-93AB-B4C6979B3F0D",
+    "endDecorationType": 0,
+    "miterLimit": 10,
+    "startDecorationType": 0
+  }
+}
