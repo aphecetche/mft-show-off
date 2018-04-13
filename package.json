@@ -9,7 +9,7 @@
     "css:watch": "postcss themes/mft/css/main.css --config postcss.config.js --output themes/mft/static/css/main.min.css --watch",
     "css:build": "postcss themes/mft/css/main.css --config postcss.config.js --output themes/mft/static/css/main.min.css",
     "webpack:watch": "webpack --watch",
-    "start": "npm run clean:public && parallelshell 'npm run css:watch' 'npm run webpack:watch' 'hugo serve --baseURL http://192.168.0.242:1313 --noHTTPCache --ignoreCache --port 1313 --bind 0.0.0.0'",
+    "start": "npm run clean:public && parallelshell 'npm run css:watch' 'npm run webpack:watch' 'hugo serve --baseURL http://localhost:1313 --noHTTPCache --ignoreCache --port 1313 --bind 0.0.0.0'",
     "build": "npm run css:build && hugo version && hugo --baseURL $URL"
   },
   "repository": {
@@ -26,9 +26,11 @@
     "cssnano": "^3.10.0",
     "parallelshell": "^3.0.2",
     "postcss-cli": "^4.1.1",
+    "postcss-css-variables": "^0.8.1",
     "postcss-cssnext": "^3.1.0",
     "postcss-easy-import": "^3.0.0",
     "postcss-font-magician": "^2.1.0",
+    "postcss-simple-vars": "^4.1.0",
     "stylelint": "^8.4.0",
     "stylelint-config-standard": "^17.0.0",
     "webpack": "^4.4.1",

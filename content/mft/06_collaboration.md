@@ -1,5 +1,5 @@
 +++
-title = "un projet international"
+title = "collaboration"
 description = "dirigé par Subatech"
 weight = 6
 +++

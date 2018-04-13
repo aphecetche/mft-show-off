@@ -5,7 +5,9 @@ module.exports = {
             'prefix': '_',
             'extension': 'css'
         }),
+        require('postcss-simple-vars'),
+        require('postcss-css-variables'),
         require('postcss-cssnext'),
-        require('postcss-font-magician')
+        require('postcss-font-magician'),
     ]
 };
