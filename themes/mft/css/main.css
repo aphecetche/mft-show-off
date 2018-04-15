@@ -7,18 +7,12 @@
 /* @import "debug"; */
 
 html, body {
-  background: black;
+  background: var(--background-color);
   height: 100%;
   width: 100%;
-  font-size: 16px;
-}
-
-blockquote {
-  display: block;
-  width: fit-content;
-  font-weight: 300;
+  font-size: 14px;
 }
 
 noscript {
-  color: yellow;
+  color: orangered;
 }

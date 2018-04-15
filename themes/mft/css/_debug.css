@@ -33,8 +33,23 @@ article p {
     background: green;
 }
 
-@media (--only-medium-screen) {
+@media (--medium-screen) {
     :root {
         --img-border-color: pink;
+        --max-img-size: 500px;
+        --background-color: pink; /*color(black lightness(50%));*/
+    }
+}
+
+img {
+    border: 10px solid var(--img-border-color);
+}
+
+
+@media (width>=$large-viewport) {
+    :root {
+        --max-img-size: 700px;
+        --background-color: yellow; /*color(black lightness(75%));*/
+
     }
 }

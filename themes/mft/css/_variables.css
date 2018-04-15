@@ -3,24 +3,33 @@
     --section-intro-color: #8DD9F5;
     --section-flex-color: #FAD975;
     --section-elec-color: #C1F2C2;
-    --max-img-size: 300px;
+    --max-img-size: 250px;
+    --background-color: black;
+    --section-flex-flow: column;
+    --header-flex-flow: column;
+    --cover-text-align: center;
+    --max-content-size: 320px;
 }
 
-$medium-viewport: 768px;
-$large-viewport: 1024px;
+$medium-viewport: 750px;
+$large-viewport: 1200px;
 
-@custom-media --only-medium-screen ($medium-viewport <= width <=$large-viewport);
-@custom-media --large-screen (width>$large-viewport);
-@custom-media --small-screen (width<$medium-viewport);
+@custom-media --medium-screen ($medium-viewport <= width <=$large-viewport);
+@custom-media --large-screen (width>=$large-viewport);
 
-@media (--only-medium-screen) {
+@media (--medium-screen) {
     :root {
-        --max-img-size: 500px;
+       --max-content-size: 700px;
+        --max-img-size: 350px;
+        --header-flex-flow: row;
+        --cover-text-align: left;
     }
 }
 
 @media (--large-screen) {
     :root {
-        --max-img-size: 700px;
+        --max-content-size: 700px;
+        --max-img-size: 450px;
+        --section-flex-flow: row;
     }
 }

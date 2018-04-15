@@ -1,90 +1,84 @@
-section {
-    display: flex;
-    flex-flow: column;
-}
-
-body > section {
+body>section {
     margin: 0 10px 0 10px;
     padding: 0;
-}
-
-header {
     display: flex;
-    flex-flow: column;
-}
-
-header figure {
-    width: 100%;
-    max-width: 280px;
+    flex-flow: var(--section-flex-flow);
+    max-width: var(--max-content-size);
     margin: 0 auto;
-    padding: 10px;
-    flex-grow: 2;
 }
 
-header > section.cover {
-    flex-grow:1;
-    flex-flow: column;
+section>header {
     display: flex;
+    flex-flow: var(--header-flex-flow);
+    justify-content: flex-start;
+    margin-bottom: 50px;
+    & img {
+        width: 100%;
+    }
+    & figure {
+        max-width: var(--max-img-size);
+        margin: 0 auto;
+        & svg {
+            width: 100%;
+        }
+    }
+}
+
+section>header>section.cover {
+    display: flex;
+    flex-flow: column;
     justify-content: space-between;
+    align-items: center;
+    & p {
+        text-align: var(--cover-text-align);
+        font-size: 1.1em;
+        margin: 50px 20px;
+    }
+    & h2 {
+        font-size: 2em;
+    }
 }
 
-header p {
-    align-self: flex-end;
-    font-size: 1.3em;
+@media (--medium-screen) {
+    section>header>section.cover {
+        border: 1px solid #ccc;
+        & p {
+            order: 1;
+            margin-top: 24px;
+            margin-left: 50px;
+            margin-right: 100px;
+            text-align: var(--cover-text-align);
+            font-size: 1.1em;
+        }
+        & h2 {
+            font-size: 2em;
+            margin-bottom: 24px;
+            margin-left: 50px;
+            order: 2;
+        }
+    }
 }
 
-section.cover > p {
-    order: 2;
-    font-style: italic;
-}
-
-section.cover h2 {
-    font-size: 2em;
-    order:1;
-}
-
-article p {
+section>article p {
     font-size: 1em;
+    text-align: center;
 }
 
-@media (min-width: 768px) {
-    section > header {
-        flex-flow: row;
-    }
-    section.cover {
-        flex-flow: column-reverse;
-    }
-    section.cover > p {
-        order:1;
-    }
-    section.cover > h2 {
-        order:2;
-    }
+section>article {
+    margin-bottom: 2em;
 }
 
-@media (min-width: 1024px) {
-    section > header {
-        flex-flow: row;
-    }
-    section {
-        flex-flow: row;
-    }
-    section.cover > h2 {
-        order:2;
-    }
+section.intro>header h2,
+section.intro>header strong {
+    color: var(--section-intro-color);
 }
 
-section.intro > header h2,
-section.intro > header strong {
-color: var(--section-intro-color);
+section.flex>header h2,
+section.flex>header strong {
+    color: var(--section-flex-color);
 }
 
-section.flex > header h2,
-section.flex > header strong {
-color:var(--section-flex-color);
-}
-
-section.elec > header h2,
-section.elec > header strong {
-color: var(--section-elec-color);
+section.elec>header h2,
+section.elec>header strong {
+    color: var(--section-elec-color);
 }
