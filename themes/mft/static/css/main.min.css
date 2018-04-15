@@ -572,7 +572,7 @@ section.intro h2 {
     color: #8DD9F5;
 }
 
-section.intro p.blurb strong {
+section.intro p.blurb::first-line {
     color: #8DD9F5;
 }
 
@@ -580,7 +580,7 @@ section.flex h2 {
     color: #FAD975;
 }
 
-section.flex p.blurb strong {
+section.flex p.blurb::first-line {
     color: #FAD975;
 }
 
@@ -588,7 +588,7 @@ section.elec h2 {
     color: #C1F2C2;
 }
 
-section.elec p.blurb strong {
+section.elec p.blurb::first-line {
     color: #C1F2C2;
 }
 

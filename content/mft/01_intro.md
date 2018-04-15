@@ -11,7 +11,7 @@ weight = 1
 <h2> Un détecteur de ouf</h2>
 
 
-<p class="blurb"><strong>In the history of modern astronomy, there is probably no </strong>one greater leap forward than the building and launch of the space telescope known as the Hubble.</p>
+<p class="blurb">In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space telescope known as the Hubble.</p>
 
 <article>
 <p>Quo doloremque expedita architecto itaque. Consequatur ea quis ullam. Tempora sit enim sequi.</p>

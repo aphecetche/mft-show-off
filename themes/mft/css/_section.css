@@ -22,6 +22,7 @@ h2 {
     text-align: center;
 }
 
+
 p.blurb {
     font-size: 1.1em;
     text-align: center;
@@ -41,17 +42,17 @@ article p {
 }
 
 section.intro h2,
-section.intro p.blurb strong {
+section.intro p.blurb::first-line {
     color: var(--section-intro-color);
 }
 
 section.flex h2,
-section.flex p.blurb strong {
+section.flex p.blurb::first-line {
     color: var(--section-flex-color);
 }
 
 section.elec h2,
-section.elec p.blurb strong {
+section.elec p.blurb::first-line {
     color: var(--section-elec-color);
 }
 

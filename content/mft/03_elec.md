@@ -17,7 +17,7 @@ weight = 3
 
 <h2>Super fast elec</h2>
 
-<p class="blurb"><strong>Having a baby can be a nerve wracking experience</strong> for new parents – not the nine months of pregnancy,</p>
+<p class="blurb">Having a baby can be a nerve wracking experience for new parents – not the nine months of pregnancy,</p>
 
 <article>
 <p>Dolores sed aperiam iste accusamus atque dolor autem et. Doloremque molestiae laboriosam asperiores omnis error sunt error. Quibusdam debitis quod natus.</p>

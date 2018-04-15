@@ -12,7 +12,7 @@ weight = 2
 <h2> Liaisons dangereuses</h2>
 
 
-<p class="blurb"><strong>There is a moment in the life of any aspiring astronomer </strong> that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station</p>
+<p class="blurb">There is a moment in the life of any aspiring astronomer  that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station</p>
 
 <article>
 <p>Praesentium ex reprehenderit nam est deserunt sint animi voluptas. Id ab molestiae. Dolor in voluptas.</p>
