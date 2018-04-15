@@ -3,15 +3,12 @@
     --section-intro-color: #8DD9F5;
     --section-flex-color: #FAD975;
     --section-elec-color: #C1F2C2;
-    --max-img-size: 250px;
+    --max-img-size: 300px;
     --background-color: black;
-    --section-flex-flow: column;
-    --header-flex-flow: column;
-    --cover-text-align: center;
-    --max-content-size: 320px;
+    --max-content-size: 300px;
 }
 
-$medium-viewport: 750px;
+$medium-viewport: 640px;
 $large-viewport: 1200px;
 
 @custom-media --medium-screen ($medium-viewport <= width <=$large-viewport);
@@ -20,9 +17,7 @@ $large-viewport: 1200px;
 @media (--medium-screen) {
     :root {
        --max-content-size: 700px;
-        --max-img-size: 350px;
-        --header-flex-flow: row;
-        --cover-text-align: left;
+        --max-img-size: 360px;
     }
 }
 
@@ -30,6 +25,5 @@ $large-viewport: 1200px;
     :root {
         --max-content-size: 700px;
         --max-img-size: 450px;
-        --section-flex-flow: row;
     }
 }

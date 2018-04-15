@@ -4,19 +4,15 @@ description = "La cablerie"
 weight = 2
 +++
 
-<header>
 <figure>
 <img src="img/flex-photo.png">
 </figure>
 
-<section class="cover">
 
 <h2> Liaisons dangereuses</h2>
 
 
-<p><strong>There is a moment in the life of any aspiring astronomer </strong> that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station</p>
-</section>
-</header>
+<p class="blurb"><strong>There is a moment in the life of any aspiring astronomer </strong> that it is time to buy that first telescope. It’s exciting to think about setting up your own viewing station</p>
 
 <article>
 <p>Praesentium ex reprehenderit nam est deserunt sint animi voluptas. Id ab molestiae. Dolor in voluptas.</p>

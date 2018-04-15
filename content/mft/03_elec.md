@@ -3,7 +3,6 @@ title =  "elec"
 description = "Comment lire 500 millions de pixels"
 weight = 3
 +++
-<header>
 
 <figure class="cd-image-container">
    <img src="img/carte-elec-photo.png" alt="Original Image">
@@ -15,14 +14,10 @@ weight = 3
    <span class="cd-handle"></span> 
 </figure> 
 
-<section class="cover">
 
 <h2>Super fast elec</h2>
 
-<p><strong>Having a baby can be a nerve wracking experience</strong> for new parents – not the nine months of pregnancy,</p>
-</section>
-
-</header>
+<p class="blurb"><strong>Having a baby can be a nerve wracking experience</strong> for new parents – not the nine months of pregnancy,</p>
 
 <article>
 <p>Dolores sed aperiam iste accusamus atque dolor autem et. Doloremque molestiae laboriosam asperiores omnis error sunt error. Quibusdam debitis quod natus.</p>

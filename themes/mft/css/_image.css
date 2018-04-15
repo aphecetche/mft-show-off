@@ -1,11 +1,7 @@
 .cd-image-container {
     position: relative;
     max-width: var(--max-img-size);
-    margin: 0 auto;
-}
-
-.cd-image-container img {
-    display: block;
+    /* margin: 0 auto; */
 }
 
 .cd-image-label {
