@@ -1,4 +1,9 @@
-section {
+html {
+    background: yellow;
+
+}
+
+article {
     padding: 0;
     margin: 0 auto;
 }
@@ -7,10 +12,12 @@ figure {
     max-width: var(--max-img-size);
     margin: 0 auto 30px;
     & img {
+    max-width: var(--max-img-size);
         width: 100%;
         margin: 0;
     }
     & svg {
+    max-width: var(--max-img-size);
         width: 100%;
         padding: 0;
         margin-bottom: -24px;
@@ -30,34 +37,34 @@ p.blurb {
     margin: 2em auto;
 }
 
-article {
+section {
     margin: 1em auto 60px;
     max-width: var(--max-content-size);
 }
 
-article p {
+section p {
     font-size: 1.2em;
     margin-bottom: 0.5em;
     text-align: justify;
 }
 
-section.intro h2,
-section.intro p.blurb::first-line {
-    color: var(--section-intro-color);
+article.intro h2,
+article.intro p.blurb::first-line {
+    color: var(--article-intro-color);
 }
 
-section.flex h2,
-section.flex p.blurb::first-line {
-    color: var(--section-flex-color);
+article.flex h2,
+article.flex p.blurb::first-line {
+    color: var(--article-flex-color);
 }
 
-section.elec h2,
-section.elec p.blurb::first-line {
-    color: var(--section-elec-color);
+article.elec h2,
+article.elec p.blurb::first-line {
+    color: var(--article-elec-color);
 }
 
 @media (--medium-screen) {
-    section {
+    article {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-column-gap: 4px;
@@ -82,10 +89,49 @@ section.elec p.blurb::first-line {
         max-width: 200px;
         text-align: right;
     }
-    article {
+    section {
         min-height: 100vh;
         margin: 0;
         grid-column: 7/13;
         grid-row: 2/8;
+    }
+}
+
+@media (--medium-screen-landscape) {
+    article {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-column-gap: 25px;
+        margin: 0 30px 60px 30px;
+        padding: 0;
+    }
+    figure {
+        grid-row: 1/5;
+        grid-column: 1/5;
+        margin: 0;
+        padding: 0;
+    }
+    h2 {
+        grid-column: 5/12;
+        grid-row: 4;
+        margin: 60px 0;
+        text-align: left;
+    }
+    p.blurb {
+        grid-column: 5/12;
+        grid-row: 2/4;
+        text-align: left;
+        max-width: var(--max-content-size);
+    }
+    section {
+        min-height:0;
+        margin: 0;
+        grid-column: 5/13;
+        grid-row: 6/10;
+        column-count: 2;
+        column-gap: 25px;
+        column-rule-color:gray;
+        column-rule-style: solid;
+        column-rule-width: 1px;
     }
 }

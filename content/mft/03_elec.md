@@ -19,11 +19,11 @@ weight = 3
 
 <p class="blurb">Having a baby can be a nerve wracking experience for new parents – not the nine months of pregnancy,</p>
 
-<article>
+<section>
 <p>Dolores sed aperiam iste accusamus atque dolor autem et. Doloremque molestiae laboriosam asperiores omnis error sunt error. Quibusdam debitis quod natus.</p>
  
 <p>Recusandae eveniet animi qui ratione. Rem recusandae quasi et iure. Est quia vel.</p>
  
 <p>Qui repellat earum dolorem. Adipisci consequatur explicabo laudantium et expedita sed quia. Necessitatibus similique qui non cumque corrupti rerum dolor vel. Eos ipsam ad ea accusantium voluptatem. Consequuntur fuga nesciunt delectus perferendis nesciunt omnis quis.</p>
 
-</article>
+</section>

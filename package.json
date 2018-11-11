@@ -9,7 +9,10 @@
     "css:watch": "postcss themes/mft/css/main.css --config postcss.config.js --output themes/mft/static/css/main.min.css --watch",
     "css:build": "postcss themes/mft/css/main.css --config postcss.config.js --output themes/mft/static/css/main.min.css",
     "webpack:watch": "webpack --watch",
-    "start": "npm run clean:public && parallelshell 'npm run css:watch' 'npm run webpack:watch' 'hugo serve --baseURL http://192.168.0.242:1313 --noHTTPCache --ignoreCache --port 1313 --bind 0.0.0.0'",
+    "hugo:serve" : "hugo serve --baseURL $URL --noHTTPCache --ignoreCache --port 1313 --bind 0.0.0.0",
+    "hugo:local" : "URL=localhost:1313 npm run hugo:serve",
+    "hugo:home" : "URL=$(dgetmyip):1313 npm run hugo:serve",
+    "start": "npm run clean:public && parallelshell 'npm run css:watch' 'npm run webpack:watch' 'npm run hugo:local'",
     "build": "npm run css:build && hugo version && hugo --baseURL $URL"
   },
   "repository": {

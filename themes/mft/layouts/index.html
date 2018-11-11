@@ -14,9 +14,9 @@
     </noscript>
 
     {{ range (where .Site.Pages "Type" "mft") }} {{ if .IsPage }}
-    <section class="{{ .Title }}">
+    <article class="{{ .Title }}">
         {{ partial "section.html" . }}
-    </section>
+    </article>
    {{ end }} {{ end }}
 </body>
 </html>
