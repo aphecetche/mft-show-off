@@ -35,8 +35,8 @@
     "postcss-simple-vars": "^4.1.0",
     "stylelint": "^10.1.0",
     "stylelint-config-standard": "^17.0.0",
-    "webpack": "^4.4.1",
-    "webpack-cli": "^3.3.8"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "dependencies": {
     "gaussian": "^1.1.0",
